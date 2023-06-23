@@ -2,7 +2,22 @@
 
 Este proyecto implementa un sistema de recomendación de películas utilizando Apache Spark y su biblioteca de aprendizaje automático (MLlib).
 
+## Clona el repositorio en tu máquina local
 
+git clone <url_del_repositorio>
+
+## Configuración del entorno:
+
+Asegúrate de tener instalado Apache Spark en tu máquina.
+Coloca los archivos movies.csv y ratings.csv en tu carpeta principal.
+
+## Link de base de datos usada
+
+https://grouplens.org/datasets/movielens/latest/
+
+## Ejecución del código:
+Abre el archivo movie_recommender.ipynb en Jupyter Notebook o en tu entorno preferido para ejecutar código Python.
+Ejecuta las celdas del notebook en orden para cargar los datos, entrenar el modelo y obtener las recomendaciones para los usuarios.
 
 ## Desafíos Enfrentados
 Durante el desarrollo de este proyecto, se enfrentaron los siguientes desafíos:
@@ -13,7 +28,7 @@ Durante el desarrollo de este proyecto, se enfrentaron los siguientes desafíos:
 
 - Interpretación de los resultados: Entender y evaluar las recomendaciones generadas por el modelo requirió un análisis cuidadoso de las métricas de evaluación y la interpretación de los datos de películas y calificaciones.
 
-# Hallazgos y Perspectivas Interesantes
+## Hallazgos y Perspectivas Interesantes
 Durante el desarrollo y evaluación del sistema de recomendación de películas, se obtuvieron los siguientes hallazgos y perspectivas interesantes:
 
 - La evaluacion del modelo nos lanzo un resultado de 1.24 usando RMSE, es un puntaje aceptable, pero se tendria que trabajar mas en mejorarlo. Ya que aun hay un margeb de error
